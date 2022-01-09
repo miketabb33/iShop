@@ -7,16 +7,6 @@ import { ShoppingListService } from './services/shopping-list.service';
   styleUrls: ['./app.component.css'],
   providers: [ShoppingListService]
 })
-export class AppComponent implements OnInit {
-  pageNumber = 0
+export class AppComponent {
 
-  constructor() {}
-
-  ngOnInit() {
-
-  }
-
-  didChangePage(pageNumber: number) {
-    this.pageNumber = pageNumber
-  }
 }
